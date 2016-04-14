@@ -9777,3 +9777,12 @@ p {
 
 .slider-pager {
   bottom: 70px; }
+
+.homeButtons {
+  display: -webkit-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
+  height: 230px; }
+  .homeButtons button {
+    width: 30% !important; }

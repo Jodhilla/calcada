@@ -1,8 +1,41 @@
 <ion-view title="Wines" id="page2">
     <ion-content padding="true" class="has-header">
-        <div style="line-height: 250px; border: 1px solid rgb(238, 238, 238); border-radius: 3px; text-align: center; background-color: rgb(255, 255, 255);">
-            <i class="icon ion-image" style="font-size: 64px; color: rgb(136, 136, 136); vertical-align: middle;"></i>
-        </div>
+      <ion-slide-box does-continue="true"
+                    show-pager='true'
+                    slide-interval="3000"
+                    auto-play="true"
+                    on-slide-changed="slideChanged(index)">
+        <ion-slide>
+          <div class="list card">
+              <div class="item item-divider">Card1</div>
+              <div class="item item-body">
+                  <div style="line-height: 250px; border: 1px solid rgb(238, 238, 238); border-radius: 3px; text-align: center; background-color: rgb(255, 255, 255);">
+                      <i class="icon ion-image" style="font-size: 64px; color: rgb(136, 136, 136); vertical-align: middle;"></i>
+                  </div>
+              </div>
+          </div>
+        </ion-slide>
+        <ion-slide>
+          <div class="list card">
+              <div class="item item-divider">Card2</div>
+              <div class="item item-body">
+                  <div style="line-height: 250px; border: 1px solid rgb(238, 238, 238); border-radius: 3px; text-align: center; background-color: rgb(255, 255, 255);">
+                      <i class="icon ion-image" style="font-size: 64px; color: rgb(136, 136, 136); vertical-align: middle;"></i>
+                  </div>
+              </div>
+          </div>
+        </ion-slide>
+        <ion-slide>
+          <div class="list card">
+              <div class="item item-divider">Card3</div>
+              <div class="item item-body">
+                  <div style="line-height: 250px; border: 1px solid rgb(238, 238, 238); border-radius: 3px; text-align: center; background-color: rgb(255, 255, 255);">
+                      <i class="icon ion-image" style="font-size: 64px; color: rgb(136, 136, 136); vertical-align: middle;"></i>
+                  </div>
+              </div>
+          </div>
+        </ion-slide>
+      </ion-slide-box>
         <a ui-sref="menu.whiteVaretals" id="wines-button13" class="button button-positive  button-block">WHITE</a>
         <a ui-sref="menu.redVaretalsRos" id="wines-button14" class="button button-positive  button-block">RED (ROSÉ)</a>
         <a ui-sref="menu.redVaretals" id="wines-button15" class="button button-positive  button-block">RED</a>

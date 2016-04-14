@@ -5,7 +5,10 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
+
 angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.services', 'app.directives'])
+
+
 
 .controller('IntroCtrl', function($scope, $state, $ionicSlideBoxDelegate) {
 
@@ -25,6 +28,7 @@ angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.services',
     $scope.slideIndex = index;
   };
 })
+
 
 
 

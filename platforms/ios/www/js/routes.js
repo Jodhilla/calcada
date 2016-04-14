@@ -197,10 +197,11 @@ angular.module('app.routes', [])
   })
 
   .state('cardpio', {
-    url: '/side-menu22',
+    url: '/side-menu21',
     templateUrl: 'templates/cardpio.html',
     abstract:true
   })
+
 
 $urlRouterProvider.otherwise('/side-menu21/page1')
 

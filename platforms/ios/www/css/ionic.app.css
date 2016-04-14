@@ -9766,9 +9766,14 @@ svg#flag {
     fill: #1a0095; }
 
 svg#wines, svg#history, svg#vineyards, svg#regions, svg#pos, svg#press {
-  height: 50px; }
+  height: 30px;
+  margin-top: 20px; }
   svg#wines .cls-1, svg#history .cls-1, svg#vineyards .cls-1, svg#regions .cls-1, svg#pos .cls-1, svg#press .cls-1 {
     fill: #fff; }
+
+p {
+  line-height: 14px;
+  margin-bottom: 20px; }
 
 .slider-pager {
   bottom: 70px; }
