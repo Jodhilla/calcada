@@ -1,0 +1,12 @@
+{
+  "name": "calcada",
+  "app_id": "7b3bc08e",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}

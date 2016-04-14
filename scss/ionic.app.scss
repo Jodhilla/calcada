@@ -1,0 +1,67 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+*/
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+svg{
+  &#logo {
+    height: 24px;
+    margin-top: 12px;
+
+    .cls-1{
+      fill:#fff;
+    }
+  }
+  &#flag {
+    height: 15px;
+    margin: 10px 5px;
+    &.usa {
+      .cls-1{fill:none;}
+      .cls-2{clip-path:url(#clip-path);}
+      .cls-3{fill:#cb001c;}
+      .cls-4{fill:#fff;}
+      .cls-5{fill:#2a3560;}
+    }
+    &.prt {
+      .cls-1{fill:none;}
+      .cls-2{clip-path:url(#clip-path);}
+      .cls-3{fill:#ea0020;}
+      .cls-4{fill:#2a680b;}
+      .cls-5{fill:#fcff2c;}
+      .cls-6{fill:#fff;}
+      .cls-7{fill:#1a0095;}
+    }
+  }
+  &#wines, &#history, &#vineyards, &#regions, &#pos, &#press {
+    height:30px;
+    margin-top: 20px;
+    .cls-1 {fill:#fff;}
+  }
+}
+
+p {
+  line-height: 14px;
+  margin-bottom: 20px;
+}
+
+.slider-pager {
+    bottom: 70px;
+  }
