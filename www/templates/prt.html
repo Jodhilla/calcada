@@ -1,0 +1,29 @@
+<!--USA-->
+<ion-side-menus enable-menu-with-back-views="true" title="prt" id="slide-menu21">
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-dark">
+            <ion-nav-back-button></ion-nav-back-button>
+            <ion-nav-buttons side="right">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="right"></button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="menuLanguage"><!-- App Content apears here... --></ion-nav-view><!-- End App Content apears here... -->
+    </ion-side-menu-content>
+    <ion-side-menu side="right" id="side-menu22">
+        <ion-header-bar class="bar-stable">
+            <div class="title">Cardápio</div>
+        </ion-header-bar>
+        <ion-content padding="false" class="side-menu-right has-header">
+            <ion-list>
+                <ion-item ui-sref="menu.prt.casa" menu-close="">Casa</ion-item>
+                <ion-item ui-sref="menu.prt.vinhos" menu-close="">Vinhos</ion-item>
+                <ion-item ui-sref="menu.prt.histRia" menu-close="">História</ion-item>
+                <ion-item ui-sref="menu.prt.vineyardsPortuguese" menu-close="">Vineyards</ion-item>
+                <ion-item ui-sref="menu.prt.regiEs" menu-close="">Regiões</ion-item>
+                <ion-item ui-sref="menu.prt.pointDeVenda" menu-close="">Point de Venda</ion-item>
+                <ion-item ui-sref="menu.prt.home" menu-close="">Kit de Imprensa</ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+
+</ion-side-menus>

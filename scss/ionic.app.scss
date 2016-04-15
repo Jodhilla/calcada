@@ -52,18 +52,18 @@ svg{
   }
   &#wines, &#history, &#vineyards, &#regions, &#pos, &#press {
     height:30px;
-    margin-top: 20px;
+    margin-top: 10px;
     .cls-1 {fill:#fff;}
   }
 }
 
 p {
-  line-height: 14px;
-  margin-bottom: 20px;
+  line-height: 10px;
+  margin-bottom: 10px;
 }
 
 .slider-pager {
-    bottom: 70px;
+    bottom: 20px;
   }
 
   .homeButtons {
@@ -71,7 +71,8 @@ p {
     justify-content : space-around;
     flex-wrap: wrap;
     align-content :space-around;
-    height:230px;
+    height: 40% !important;
+    margin-top:20px;
     button {
       width: 30% !important;
     }
