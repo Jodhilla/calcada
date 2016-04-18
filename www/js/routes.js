@@ -1,5 +1,6 @@
 angular.module('app.routes', [])
 
+
 .config(function($stateProvider, $urlRouterProvider) {
 
   // Ionic uses AngularUI Router which uses the concept of states
@@ -44,7 +45,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.prt.casa', {
-    url: '/page10',
+    url: '/casa',
     views: {
       'menuLanguage': {
         templateUrl: 'templates/casa.html',
@@ -54,7 +55,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.usa.wines', {
-    url: '/page2',
+    url: '/wines',
     views: {
       'menuLanguage': {
         templateUrl: 'templates/wines.html',
@@ -64,7 +65,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.prt.vinhos', {
-    url: '/page11',
+    url: '/vinhos',
     views: {
       'menuLanguage': {
         templateUrl: 'templates/vinhos.html',
@@ -74,7 +75,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.usa.history', {
-    url: '/page4',
+    url: '/history',
     views: {
       'menuLanguage': {
         templateUrl: 'templates/history.html',
@@ -84,7 +85,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.prt.histRia', {
-    url: '/page12',
+    url: '/histRia',
     views: {
       'menuLanguage': {
         templateUrl: 'templates/histRia.html',
@@ -94,7 +95,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.usa.vineyards', {
-    url: '/page5',
+    url: '/vineyards',
     views: {
       'menuLanguage': {
         templateUrl: 'templates/vineyards.html',
@@ -104,7 +105,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.prt.vineyardsPortuguese', {
-    url: '/page13',
+    url: '/vineyardsPortuguese',
     views: {
       'menuLanguage': {
         templateUrl: 'templates/vineyardsPortuguese.html',
@@ -114,7 +115,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.usa.regions', {
-    url: '/page6',
+    url: '/regions',
     views: {
       'menuLanguage': {
         templateUrl: 'templates/regions.html',
@@ -124,7 +125,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.prt.regiEs', {
-    url: '/page18',
+    url: '/regiEs',
     views: {
       'menuLanguage': {
         templateUrl: 'templates/regiEs.html',
@@ -134,7 +135,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.usa.pos', {
-    url: '/page7',
+    url: '/pos',
     views: {
       'menuLanguage': {
         templateUrl: 'templates/pos.html',
@@ -144,7 +145,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.prt.piontDeVenda', {
-    url: '/page14',
+    url: '/piontDeVenda',
     views: {
       'menuLanguage': {
         templateUrl: 'templates/piontDeVenda.html',
@@ -154,7 +155,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.usa.whiteVaretals', {
-    url: '/page3',
+    url: '/whiteVaretals',
     views: {
       'menuLanguage': {
         templateUrl: 'templates/whiteVaretals.html',
@@ -164,7 +165,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.prt.brancoVaretals', {
-    url: '/page15',
+    url: '/brancoVaretals',
     views: {
       'menuLanguage': {
         templateUrl: 'templates/brancoVaretals.html',
@@ -174,7 +175,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.usa.redVaretalsRos', {
-    url: '/page8',
+    url: '/redVaretalsRos',
     views: {
       'menuLanguage': {
         templateUrl: 'templates/redVaretalsRos.html',
@@ -184,7 +185,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.prt.vermelhoVaretalsRosa', {
-    url: '/page17',
+    url: '/vermelhoVaretalsRosa',
     views: {
       'menuLanguage': {
         templateUrl: 'templates/vermelhoVaretalsRosa.html',
@@ -194,7 +195,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.usa.redVaretals', {
-    url: '/page9',
+    url: '/redVaretals',
     views: {
       'menuLanguage': {
         templateUrl: 'templates/redVaretals.html',
@@ -204,7 +205,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.prt.vermelhoVaretals', {
-    url: '/page16',
+    url: '/vermelhoVaretals',
     views: {
       'menuLanguage': {
         templateUrl: 'templates/vermelhoVaretals.html',
@@ -213,6 +214,48 @@ angular.module('app.routes', [])
     }
   })
 
+
+
+
+  .state('menu.usa.ourVineyards', {
+    url: '/ourVineyards',
+    views: {
+      'menuLanguage': {
+        templateUrl: 'templates/ourVineyards.html',
+        controller: 'ourVineyardsCtrl'
+      }
+    }
+  })
+
+  .state('menu.usa.lago', {
+    url: '/lago',
+    views: {
+      'menuLanguage': {
+        templateUrl: 'templates/lago.html',
+        controller: 'lagoCtrl'
+      }
+    }
+  })
+
+  .state('menu.usa.quinta', {
+    url: '/quinta',
+    views: {
+      'menuLanguage': {
+        templateUrl: 'templates/quinta.html',
+        controller: 'quintaCtrl'
+      }
+    }
+  })
+
+  .state('menu.usa.portal', {
+    url: '/portal',
+    views: {
+      'menuLanguage': {
+        templateUrl: 'templates/portal.html',
+        controller: 'portalCtrl'
+      }
+    }
+  })
 
 
 $urlRouterProvider.otherwise('/side-menu21/usa/home')
