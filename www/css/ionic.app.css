@@ -9771,6 +9771,12 @@ svg#wines, svg#history, svg#vineyards, svg#regions, svg#pos, svg#press {
   svg#wines .cls-1, svg#history .cls-1, svg#vineyards .cls-1, svg#regions .cls-1, svg#pos .cls-1, svg#press .cls-1 {
     fill: #fff; }
 
+#menuLanguageUSA svg#wines, #menuLanguageUSA svg#history, #menuLanguageUSA svg#vineyards, #menuLanguageUSA svg#regions, #menuLanguageUSA svg#pos, #menuLanguageUSA svg#press {
+  height: 30px;
+  margin-top: 10px; }
+  #menuLanguageUSA svg#wines .cls-1, #menuLanguageUSA svg#history .cls-1, #menuLanguageUSA svg#vineyards .cls-1, #menuLanguageUSA svg#regions .cls-1, #menuLanguageUSA svg#pos .cls-1, #menuLanguageUSA svg#press .cls-1 {
+    fill: #000; }
+
 p {
   line-height: 10px;
   margin-bottom: 10px; }

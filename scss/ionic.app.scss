@@ -57,6 +57,14 @@ svg{
   }
 }
 
+#menuLanguageUSA svg {
+  &#wines, &#history, &#vineyards, &#regions, &#pos, &#press {
+    height:30px;
+    margin-top: 10px;
+    .cls-1 {fill:#000;}
+  }
+}
+
 p {
   line-height: 10px;
   margin-bottom: 10px;

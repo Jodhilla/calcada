@@ -1,4 +1,8 @@
-<ion-view title="Wines" id="page2" style="background-color:#000000;" >
+<ion-view title="Wines" id="page2" style="background-color:#000000;" hide-back-button="true">
+  <ion-nav-buttons side="left">
+    <button nav-transition="none"  ui-sref="menu.usa.home" class="button button-clear icon ion-home">
+    </button>
+  </ion-nav-buttons>
     <ion-content padding="true" class="has-header">
       <ion-slide-box does-continue="true"
                     show-pager='true'
@@ -7,11 +11,9 @@
                     on-slide-changed="slideChanged(index)">
         <ion-slide>
             <img class="full-image" src="img/wines-story-img/quinta-family.jpg">
-            <a href="quinta-wn.html">
-              <button class="wn-btn button button-block button-stable">
+              <button  ui-sref="menu.usa.quinta" class="button button-light  button-outline  button-block">
               Quinta Winemaker Notes
             </button>
-            </a>
             <p>
               The quintessential Calçada wines are made in very limited production showing the ultimate potential of the Vinho Verde region. Our range of selections explores the individual identities of Calçada’s vineyards. The Quinta Portal portfolio compares to some of the finest white wines in the world delivering outstanding gastronomical experiences.
             </p>
@@ -21,22 +23,18 @@
         </ion-slide>
         <ion-slide>
             <img class="full-image" src="img/wines-story-img/portal-family.jpg">
-            <a href="portal-wn.html">
-              <button class="wn-btn button button-block button-stable">
+              <button  ui-sref="menu.usa.portal" class="button button-light  button-outline  button-block">
               Portal Winemaker Notes
             </button>
-            </a>
             <p>
               The Portal da Calcada selections include wines made from some of the oldest documented vines in the Vinho Verde Region. Very limited yields, hand harvesting and cluster sorting give the deepest and richest character to wines from this versatile region. The winemaking philosophy of respecting the purity of the grown fruit is to use wild yeast in the wine production process.
             </p>
         </ion-slide>
         <ion-slide>
           <img class="full-image" src="img/wines-story-img/lago-family.jpg">
-  		    <a href="lago-wn.html">
-  			    <button class="wn-btn button button-block button-stable">
+  			    <button  ui-sref="menu.usa.lago" class="button button-light  button-outline  button-block">
   				  Lago Winemaker Notes
   				</button>
-  		    </a>
   		    <p>
   		      The LAGO collection White and Rosé wines share the same commitment to hand-picked, Estate grown fruit that comes from the Estate of Calcada. The wines represent an unsurpassed quality and value, delivering European elegance where the  brand fills a complete level of lifestyle, with appealing packaging, focusing on blends both in white, Red and a special Rose.
   		    </p>
@@ -45,8 +43,8 @@
 
 
       </ion-slide-box>
-        <a ui-sref="menu.usa.whiteVaretals" id="wines-button13" class="button button-positive  button-block">WHITE</a>
-        <a ui-sref="menu.usa.redVaretalsRos" id="wines-button14" class="button button-positive  button-block">RED (ROSÉ)</a>
-        <a ui-sref="menu.usa.redVaretals" id="wines-button15" class="button button-positive  button-block">RED</a>
+        <a ui-sref="menu.usa.whiteVaretals" id="wines-button13" class="button button-light  button-outline  button-block">WHITE</a>
+        <a ui-sref="menu.usa.redVaretalsRos" id="wines-button14" class="button button-light  button-outline  button-block">RED (ROSÉ)</a>
+        <a ui-sref="menu.usa.redVaretals" id="wines-button15" class="button button-light  button-outline  button-block">RED</a>
     </ion-content>
 </ion-view>
