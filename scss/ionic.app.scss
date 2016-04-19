@@ -59,8 +59,8 @@ svg{
 
 #menuLanguageUSA svg {
   &#wines, &#history, &#vineyards, &#regions, &#pos, &#press {
-    height:30px;
-    margin-top: 10px;
+    max-width: 20px;
+    max-height: 30px;
     .cls-1 {fill:#000;}
   }
 }
